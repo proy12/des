@@ -1,7 +1,7 @@
-p{font-family: 'HY견고딕'}
-b{font-size: 20px}
-h1{font-size: 40px}
-h2{font-size: 30px}
-h3{font-size: 25px}
-*{background-color: black; color: white}
-a{color:white;}
+* {font-family: 'HY견고딕';background-color: black; color: white}
+b {font-size: 20px}
+h1 {font-size: 40px}
+h2 {font-size: 30px}
+h3 {font-size: 25px}
+a {color:white;}
+#destiny {font-family: none}
