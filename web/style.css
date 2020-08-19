@@ -1,0 +1,94 @@
+body{
+  background-color: black;
+}
+*{
+  color: white;
+}
+h2{
+  color: orange;
+  font-size: 40px;
+  text-decoration: underline;
+}
+a{
+  color: white;
+  font-size: 20px;
+  border-style: ridge;
+  padding: 7px;
+  text-decoration: none;
+}
+.WWW{
+  color: blue;
+  font-size: 18px;
+  font-style: oblique;
+}
+.image{
+  border-style: groove;
+  border-width: 35px;
+  border-color: #D17308;
+}
+#rock{
+  border-style: dashed;
+  border-width: 5px;
+}
+li{
+  margin: 30px;
+
+
+}
+#select{
+  background-color: red;
+  font-style: oblique;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 240px 1fr;
+}
+li{
+  margin-top: 0px;
+  margin-bottom: 50px;
+ }
+body{
+  margin: 0
+    }
+h1{
+  color: green; font-size: 100px; font-family: '궁서';
+  padding-bottom: 30px;
+  border-bottom: solid white 2px;
+  text-align: center;
+  margin-bottom: 0
+  }
+  ul{
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    list-style: none;
+    width: 200px;
+    margin-top: 0;
+    border-right: solid white 2px;
+  }
+  @media(max-width:900px)
+  {
+    #grid{display: block;}
+    ul{
+      padding-left: 5px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      list-style: none;
+      width: 200px;
+      margin-top: 0;
+      border-right: none
+    }
+    h1{
+      font-size: 50px;
+      padding-bottom: 30px;
+      border-bottom: none;
+      text-align: center;
+      margin-bottom: 0
+    }
+    li{
+      margin-top: 0px;
+      margin-bottom: 30px;
+     }
+  }
