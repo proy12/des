@@ -1,0 +1,32 @@
+* {
+  font-family: 'HY견고딕';background-color: black; color: white
+}
+b {
+  font-size: 28px
+}
+h1 {
+  font-size: 45px
+}
+h2 {
+  font-size: 35px
+}
+h3 {
+  font-size: 30px
+}
+a {
+  font-size: 30px
+}
+p{
+  font-size: 23px
+}
+body{
+  margin-right: 10%;
+  margin-left: 2%
+}
+@media(max-width : 800px)
+{
+p{font-size: 28px}
+h1{font-size: 35px}
+h2{font-size: 30px}
+h3{font-size: 28px}
+}
